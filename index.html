@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio: A Trilha do Dragão de Heighway</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Vídeo de fundo -->
+    <video id="background-video" autoplay muted loop playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Container principal do desafio -->
+    <div class="main-container">
+      <h1 class="title">🐉 Trilha do Dragão de Heighway</h1>
+      <p class="subtitle">Desvende os segredos fractais do dragão místico</p>
+
+      <!-- Input para entrada de dados -->
+      <div class="input-section">
+        <label for="steps-input" class="input-label">Número de passos para calcular:</label>
+        <input
+          type="number"
+          id="steps-input"
+          class="magic-input"
+          placeholder="Ex: 1012"
+          min="1"
+          max="100000"
+          tabindex="1"
+        />
+        <small class="input-hint">Digite o número de passos que deseja calcular na sequência D₅₀</small>
+      </div>
+
+      <!-- Área dos botões -->
+      <div class="buttons-section">
+        <button class="glow-on-hover" id="calculate-btn" type="button" tabindex="2">⚡ CALCULAR</button>
+        <button class="glow-on-hover" id="return-btn" type="button" tabindex="3">🔄 RETORNAR</button>
+      </div>
+
+      <!-- Seção de resultado -->
+      <div class="result-section" id="result-section">
+        <h3 class="result-title">🔮 Resultado da Jornada</h3>
+        <div class="result-content" id="result-content">
+          <!-- Resultado será inserido aqui via JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
