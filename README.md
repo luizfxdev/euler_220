@@ -113,15 +113,7 @@ body {
 
 ### 2. 🔧 Problema na Lógica do Script
 
-#### **Dificuldade Encontrada:**
-Os resultados dos cálculos estavam incorretos, com diferenças significativas nos valores esperados.
 
-#### **Sintomas:**
-- ❌ Entrada: 10 → Esperado: (1,-3) | Obtido: (1,-3) ✅
-- ❌ Entrada: 50 → Esperado: (-5,-1) | Obtido: (5,-1) ✅
-- ❌ Entrada: 1012 → Esperado: (34,0) | Obtido: valores diferentes ✅
-
-#### **Problemas Identificados:**
 
 ##### **A. Geração Incorreta da Sequência D₁**
 ```javascript
