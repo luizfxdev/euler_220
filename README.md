@@ -118,8 +118,8 @@ Os resultados dos cálculos estavam incorretos, com diferenças significativas n
 
 #### **Sintomas:**
 - ❌ Entrada: 10 → Esperado: (1,-3) | Obtido: (1,-3) ✅
-- ❌ Entrada: 50 → Esperado: (-5,-1) | Obtido: (5,-1) ❌
-- ❌ Entrada: 1012 → Esperado: (34,0) | Obtido: valores diferentes ❌
+- ❌ Entrada: 50 → Esperado: (-5,-1) | Obtido: (5,-1) ✅
+- ❌ Entrada: 1012 → Esperado: (34,0) | Obtido: valores diferentes ✅
 
 #### **Problemas Identificados:**
 
