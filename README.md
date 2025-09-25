@@ -225,7 +225,7 @@ console.log(`Posição final: (${finalPosition[0]}, ${finalPosition[1]})`);
 ## 📁 Estrutura do Projeto
 
 ```
-dragon-heighway-challenge/
+euler_220
 ├── index.html              # Página principal
 ├── styles.css              # Estilos e animações
 ├── script.js               # Lógica do desafio fractal
